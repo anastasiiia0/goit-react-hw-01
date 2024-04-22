@@ -1,0 +1,36 @@
+.card {
+  width: 150px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  background: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.friendPic {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.friendName {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.friendStatus {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.onlineStatus {
+  color: green;
+}
+
+.offlineStatus {
+  color: red;
+}
