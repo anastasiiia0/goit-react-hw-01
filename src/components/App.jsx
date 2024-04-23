@@ -1,10 +1,10 @@
 import userData from '../userData.json';
 import friends from '../friends.json';
-// Webpack розглядає це як імпорт модуля (у цьому випадку, модулем є JSON-файл)
-// і автоматично парсить вміст JSON-файлу, перетворюючи його на JavaScript-об'єкт
+import transactions from '../transactions.json';
 
 import Profile from './Profile';
 import FriendList from './FriendList';
+import TransactionHistory from './TransactionHistory';
 
 const App = () => {
   return (
@@ -17,6 +17,7 @@ const App = () => {
         stats={userData.stats}
       />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };
